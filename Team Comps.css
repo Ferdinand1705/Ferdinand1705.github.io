@@ -1,0 +1,54 @@
+h1{
+    font-size: 50px;
+}
+
+.container-allteams{
+    margin: 10px;
+    padding: 10px 200px 10px 200px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container-allteams a{
+    color: black;
+}
+
+.container-allteams a:link{
+    text-decoration: none;
+}
+
+.container-allteams a:visited{
+    text-decoration: none;
+}
+
+.container-allteams a:hover{
+    background-color: rgba(255,255,255,0.6);
+}
+
+.container-teams{
+    width: auto;
+    display: grid;
+    padding: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 25px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.container-teams img{
+    max-width: 100%;
+    max-height: auto;
+    overflow: hidden;
+    object-fit: cover;
+    margin: auto;
+}
+
+.team-title{
+    grid-area: 1/1/2/5;
+    font-size: 30px;
+}

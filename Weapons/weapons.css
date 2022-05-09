@@ -1,0 +1,201 @@
+.container-weapon{
+    margin: 10px;
+    padding: 10px 200px 10px 200px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px;
+    grid-column-gap: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.information{
+    grid-area: 1/2/2/5;
+}
+
+.container-weapon img{
+    width: auto;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.container-description{
+    margin: 10px;
+    padding: 10px 200px 20px 200px;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 75px;
+    grid-column-gap: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.desctext{
+    padding-top: 8px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 19px;
+    margin: 5px;
+}
+
+.description{
+    font-size: 19px;
+    margin: 5px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.container-recomtitle{
+    margin: 10px;
+    padding: 10px 200px 10px 200px;
+    width: auto;
+    display: grid;
+    grid-template-rows: 50px;
+    grid-column-gap: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.recomtitle{
+    padding-top: 6px;
+}
+
+.container-recommend{
+    margin: 10px;
+    padding: 10px 200px 10px 200px;
+    width: auto;
+    display: grid;
+    grid-template-rows: 125px;
+    grid-column-gap: 20px;
+    position: relative;
+}
+
+.container-recommend a:hover{
+    background-color: rgba(255,255,255,0.6);
+}
+
+.container-teammates{
+    margin: 10px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 10px;
+    position: relative;
+}
+
+.char1{
+    width: auto;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.char1 img{
+    width: auto;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.char2{
+    width: auto;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.char2 img{
+    width: auto;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.char3{
+    width: auto;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.char3 img{
+    width: auto;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.char4{
+    width: auto;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.char4 img{
+    width: auto;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.char5{
+    width: auto;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.char5 img{
+    width: auto;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.char6{
+    width: auto;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.char6 img{
+    width: auto;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.container-recommend a:hover{
+    background-color: rgba(255,255,255,0.6);
+}
+
+.container-header a{
+    color: black
+}
+
+.container-header a:link{
+    text-decoration: none;
+}
+
+.container-header a:visited{
+    text-decoration: none;
+}
+
+.container-header a:hover{
+    text-decoration: underline;
+}
+
+.container-header a:active{
+    text-decoration: underline;
+}

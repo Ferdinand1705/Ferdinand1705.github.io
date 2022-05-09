@@ -1,0 +1,99 @@
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    font-size: 12px;
+    color: black;
+    margin: 2px;
+    width: 80px;
+    overflow-wrap: break-word;
+}
+
+.filters{
+    padding: 10px 200px 10px 200px;
+}
+
+.filters-list{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.filters-type{
+    margin: 0px auto;
+    width: auto;
+}
+
+.tier{
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.tier-title{
+    margin: 10px;
+    padding: 10px;
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.tier-characters{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.tier-characters a{
+    text-decoration: none;
+}
+
+.weaponicon{
+    position: relative;
+    padding: 0px 10px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.weaponimg{
+    width: 80px;
+}
+
+button{
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    padding-top: 6px;
+}
+
+button:hover{
+    background-color: rgba(255,255,255,0.6);
+}
+
+.fourstar{
+    background-color: rgba(164,83,231,0.3);
+}
+
+.fivestar{
+    background-color: rgba(188,106,49,0.3);
+}

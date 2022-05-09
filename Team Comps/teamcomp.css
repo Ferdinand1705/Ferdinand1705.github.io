@@ -1,0 +1,60 @@
+h1{
+    font-size: 50px;
+}
+
+h2{
+    margin: 10px;
+}
+
+h3{
+    margin: 10px;
+}
+
+.container-teamcomp{
+    margin: 10px;
+    padding: 10px 200px 10px 200px;
+    width: auto;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.container-party{
+    padding: 10px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.container-party img{
+    max-width: 80%;
+    max-height: auto;
+    overflow: hidden;
+    object-fit: cover;
+    padding: auto;
+}
+
+.container-party a{
+    color: black;
+}
+
+.container-party img:link{
+    text-decoration: none;
+}
+
+.container-party img:visited{
+    text-decoration: none;
+}
+
+.container-party img:hover{
+    background-color: rgba(255,255,255,0.6);
+}
+
+.descteam{
+    padding: 10px;
+}

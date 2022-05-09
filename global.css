@@ -1,0 +1,139 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.web-background{
+    min-height: 100%;
+    background-image: url("Website Background.PNG");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.white-background{
+    background-color: rgba(255,255,255,0.6);
+}
+
+.brown-background{
+    background-color: rgba(204, 152, 94, 0.4);
+}
+
+.container-header{
+    padding: 10px;
+    background-color: rgba(81, 196, 148, 0.4);
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 50px;
+    grid-row-gap: 10px;
+}
+
+.header-nav{
+    grid-area: 1/1/2/5;
+    font-size: 35px;
+    padding-top: 2px;
+}
+
+.home-nav{
+    grid-area: 1/6/2/7;
+}
+
+.characters-nav{
+    grid-area: 1/7/2/8;
+}
+
+.weapons-nav{
+    grid-area: 1/8/2/9;
+}
+
+.team-comps-nav{
+    grid-area: 1/9/2/10;
+}
+
+.direct-nav{
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+.direct-nav a {
+    padding-left: 1em;
+}
+
+.container-header a{
+    color: black
+}
+
+.container-header a:link{
+    text-decoration: none;
+}
+
+.container-header a:visited{
+    text-decoration: none;
+}
+
+.container-header a:hover{
+    text-decoration: underline;
+}
+
+.container-header a:active{
+    text-decoration: underline;
+}
+
+.container-footer{
+    padding: 10px;
+    background-color: rgba(29, 42, 158, 0.6);
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-row-gap: 10px;
+}
+
+.footer-nav{
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+.copyright-nav{
+    grid-area: 1/1/2/2;
+}
+
+.download-nav{
+    grid-area: 1/2/2/3;
+}
+
+.links-nav{
+    grid-area: 1/3/2/4;
+}
+
+.container-footer a{
+    color: yellow;
+    padding: 10px;
+}
+
+.container-footer div{
+    color: white;
+    padding: 10px;
+}
+
+.container-footer a:link{
+    text-decoration: none;
+}
+
+.container-footer a:visited{
+    text-decoration: none;
+}
+
+.container-footer a:hover{
+    text-decoration: underline;
+}
+
+.container-footer a:active{
+    text-decoration: underline;
+}
+
+.center-align{
+    text-align: center;
+    vertical-align: middle;
+}

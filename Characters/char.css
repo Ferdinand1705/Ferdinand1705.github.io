@@ -1,0 +1,279 @@
+.container-character{
+    margin: 10px;
+    padding: 10px 200px 10px 200px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px;
+    grid-column-gap: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.information{
+    grid-area: 1/2/2/5;
+}
+
+.container-description{
+    margin: 10px;
+    padding: 10px 200px 20px 200px;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 75px;
+    grid-column-gap: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.desctext{
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 19px;
+    margin: 5px;
+}
+
+.description{
+    font-size: 19px;
+    margin: 5px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.container-recomtitle{
+    margin: 10px;
+    padding: 10px 200px 10px 200px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px;
+    grid-column-gap: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.recomtitle{
+    padding-top: 6px;
+}
+
+.container-recommend{
+    margin: 10px;
+    padding: 10px 200px 10px 200px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    grid-column-gap: 20px;
+    position: relative;
+}
+
+.container-recommend a:hover{
+    background-color: rgba(255,255,255,0.6);
+}
+
+.container-weaponrec{
+    margin: 10px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    position: relative;
+}
+
+.weaponbest1{
+    width: auto;
+    max-height: 100%;
+    grid-area: 1/1/2/2;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.weaponbest1 img{
+    width: auto;
+    max-height: 100%;
+    grid-area: 1/1/2/2;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.weaponbest2{
+    width: auto;
+    max-height: 100%;
+    grid-area: 1/2/2/3;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.weaponbest2 img{
+    width: auto;
+    max-height: 100%;
+    grid-area: 1/2/2/3;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.container-artifrec{
+    margin: 10px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+}
+
+.artifbest11{    
+    width: auto;
+    max-height: 100%;
+    grid-area: 1/1/2/2;
+    object-fit: cover;
+    overflow: hidden;
+    border-bottom: solid 2px;
+}
+
+.artifbest11 img{    
+    width: auto;
+    max-height: 100%;
+    grid-area: 1/1/2/2;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.artifbest12{    
+    width: auto;
+    max-height: 100%;
+    grid-area: 1/2/2/3;
+    object-fit: cover;
+    overflow: hidden;
+    border-bottom: solid 2px;
+}
+
+.artifbest12 img{    
+    width: auto;
+    max-height: 100%;
+    grid-area: 1/2/2/3;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.artifbest21{    
+    width: auto;
+    max-height: 100%;
+    grid-area: 2/1/3/2;
+    object-fit: cover;
+    overflow: hidden;
+    border-top: solid 2px;
+}
+
+.artifbest21 img{    
+    width: auto;
+    max-height: 100%;
+    grid-area: 2/1/3/2;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.artifbest22{    
+    width: auto;
+    max-height: 100%;
+    grid-area: 2/2/3/3;
+    object-fit: cover;
+    overflow: hidden;
+    border-top: solid 2px;
+}
+
+.artifbest22 img{    
+    width: auto;
+    max-height: 100%;
+    grid-area: 2/2/3/3;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.container-teammates{
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+}
+
+.teammate1{
+    width: auto;
+    max-height: 100%;
+    grid-area: 1/1/2/2;
+    object-fit: cover;
+    overflow: hidden;
+    border-bottom: solid black 2px;
+    border-right: solid black 2px;
+}
+
+.teammate1 img{
+    width: auto;
+    max-height: 100%;
+    grid-area: 1/1/2/2;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.teammate2{
+    width: auto;
+    max-height: 100%;
+    grid-area: 1/2/2/3;
+    object-fit: cover;
+    overflow: hidden;
+    border-bottom: solid black 2px;
+    border-left: solid black 2px;
+}
+.teammate2 img{
+    width: auto;
+    max-height: 100%;
+    grid-area: 1/2/2/3;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.teammate3{
+    width: auto;
+    max-height: 100%;
+    grid-area: 2/1/3/2;
+    object-fit: cover;
+    overflow: hidden;
+    border-top: solid black 2px;
+    border-right: solid black 2px;
+}
+
+.teammate3 img{
+    width: auto;
+    max-height: 100%;
+    grid-area: 2/1/3/2;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.teammate4{
+    width: auto;
+    max-height: 100%;
+    grid-area: 2/2/3/3;
+    object-fit: cover;
+    overflow: hidden;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+}
+
+.teammate4 img{
+    width: auto;
+    max-height: 100%;
+    grid-area: 2/2/3/3;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+}
